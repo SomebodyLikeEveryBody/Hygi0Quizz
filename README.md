@@ -9,7 +9,7 @@ I noticed that application of hygiene measures at work by operators is something
 3) The logistical difficulty of applying the recommandations, due to lack of time or resources
 
 This application has the purpose to solve the first point by **decreasing the constraint to overcome to learn the recommendations**, this by using concretes situation and trial and error learning strategy, on a funny web application.
-This also have the purpose to affect positively the second point by **encourage dialog between operators and hygiene team** about specific hygiene cases, problems encountered in the unit, scales of values, etc.
+This also have the purpose to affect positively the second point by **encouraging dialog between operators and hygiene team** about specific hygiene cases, problems encountered in the unit, scales of values, etc.
 
 ## How to use
 Comming soon
