@@ -15,7 +15,7 @@ This also have the purpose to affect positively the second point by **encourage 
 This is a web application exclusively in front-end, using html and jQuery. This choice has been made to have something really simple to deploy. You don't need an internet connection or any server, the only thing you need is a web browser. You put the directory on the computer, launch it in the web browser and play, that's it.  
   
 There's 2 parts in the application: 
-- A **quizz part**, embodied by the file **"quizzes.js"**, that contain all the quizzes and the explanations of each answers in the form of a JS Object, file that can be modified manually or with a simplifying tool to update quizzes and answers with recommendations evolutions *(a tool to generate the quizzes file from a Graphical User Interface is comming soon)*
+- A **quizz part**, embodied by the file **"quizzes.js"**, that contain all the quizzes and the explanations of each answers in the form of a JS Object, file that can be modified manually or with a simplifying tool to update quizzes and answers with recommendations evolutions *(a tool to generate the quizzes.js file from a Graphical User Interface is comming soon)*
 - A **technical part**, composed by files to run the application (Hygi0Quizz.htm, checkQuizzes.htm, ./resources/\*), that doesn't need to be modified.
 
 
