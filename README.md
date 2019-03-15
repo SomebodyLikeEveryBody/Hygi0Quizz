@@ -11,5 +11,8 @@ I noticed that application of hygiene measures at work by operators is something
 This application has the purpose to solve the first point by **decreasing the constraint to overcome to learn the recommendations**, this by using concretes situation and trial and error learning strategy, on a funny web application.
 This also have the purpose to affect positively the second point by **encourage dialog between operators and hygiene team** about specific hygiene cases, problems encountered in the unit, scales of values, etc.
 
+## Technical informations
+This is a web application exclusively in front-end, using html and jQuery. This choice has been made to have something really simple to deploy. You don't need an internet connection or any server, the only thing you need is a web browser. You put the directory on the computer, launch it in the web browser and play, that's it.
+
 
 
