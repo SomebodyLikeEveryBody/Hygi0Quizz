@@ -28,21 +28,39 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 
 ## How to use
 ### Use Hygi0Quizz feature:
+This is the **Game File**. When you launch it, it presents as following: 
 
 
 ### Use CheckQuizzes feature:
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
   
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
+`<image 1: HomePage>`
   
 To see the next question and answers, you click on the link "Goto question X".  
+`<image 1: HomePage with Mouse on [GOTO question 1]>`  
+`<image 2: ?n=1 with Mouse on [GOTO question 2]>`  
+`<image 2: ?n=3 with Mouse on [GOTO question 3]>`  
+
 Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser and press enter.  
   
 - Example 1: You just launched CheckQuizzes and want to see directly the question number 5, you do as so: 
+`<image 1: HomePage>`  
+`<image 2: Adding ?n=5>`  
+`<image 3: clicking GO !>`
+`<image 4: showing ?n=5>`
 
 - Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so: 
+`<image 1: page ?n=4>`  
+`<image 2: modifying to ?n=2>`
+`<image 3: clicking GO !>`
+`<image 4: showing ?n=2>`
 
 - Example 3: You launched CheckQuizzes and went to question number 4, you want to see question number 7, you do as so: 
+`<image 1: page ?n=4>`  
+`<image 2: modifying to ?n=7>`
+`<image 3: clicking GO !>`
+`<image 4: showing ?n=7>`
 
 
 
