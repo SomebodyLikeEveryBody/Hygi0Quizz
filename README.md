@@ -55,7 +55,7 @@ This is the **Game File**. When you launch it, it presents as following:
 7) You start again with a new question. You have to answer to 5 questions in total to get a final score. Simple !  
   
 #### Further informations:
-By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file.  
+By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file, it is self managed !  
 **If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score.  
   
 It is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to do training with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions.
