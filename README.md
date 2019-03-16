@@ -47,7 +47,7 @@ Technically, the index of the question shown in the page is the value of `$_GET[
 - Example 1: You just launched CheckQuizzes and want to see directly the question number 5, you do as so:  
 `<image 1: HomePage>`  
 `<image 2: Adding ?n=5>`  
-`<image 3: clicking GO !>`
+`<image 3: clicking GO !>`  
 `<image 4: showing ?n=5>`
 
 - Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so:  
