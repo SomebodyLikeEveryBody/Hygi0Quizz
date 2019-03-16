@@ -32,7 +32,7 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 ### IV.1) Use Hygi0Quizz feature:
 This is the **Game File**. When you launch it, it presents as following:  
   
-![Screenshot](./imgReadMe/structure.png)  
+![Screenshot](./imgReadMe/struct.png)  
 ![Screenshot](./imgReadMe/selection.png)  
 
 #### IV.1.1) Here are the informations to know:  
