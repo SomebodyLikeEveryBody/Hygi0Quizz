@@ -27,7 +27,10 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 - Step 4: Click on the shortcut to Hygi0Quizz.htm to launch the application and play as much as you want
 
 ## How to use
-Comming soon
+### Hygi0Quizz
+Using Hygi0Quizz
+### CheckQuizzes
+Using CheckQuizzes
 
 
 
