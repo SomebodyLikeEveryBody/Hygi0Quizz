@@ -8,7 +8,7 @@ I noticed that application of hygiene measures at work by operators is something
 2) The discordance between theorical cases and reality, when the scale of values of the recommendations doesn't meet the operators' ones
 3) The logistical difficulty of applying the recommandations, due to lack of time or resources
 
-This application has the purpose to solve the first point by **decreasing the constraint to overcome to learn the recommendations**, this by using concretes situation and trial and error learning strategy, on a funny web application.
+This applicatio has the purpose to solve the first point by **decreasing the constraint to overcome to learn the recommendations**, this by using concretes situation and trial and error learning strategy, on a funny web application.
 This also have the purpose to affect positively the second point by **encouraging dialog between operators and hygiene team** about specific hygiene cases, problems encountered in the unit, scales of values, etc.
 
 ## Technical informations
@@ -41,18 +41,21 @@ This is the **Game File**. When you launch it, it presents as following:
 3)  You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field. You can hover an item to see the detail of the equipment in an tooltip.  
 `<image 4: GUI home avec des checkbox cochées et une info-bulle sur un item>`  
   
-4) Then you validate your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a tooltip by hovering the item
+4) Then you validate your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a tooltip by hovering the item  
 `<image 5: GUI home avec les validations des check cochées precedemment>`  
 `<image 6: idem que im5 mais avec une info-bulle explicative>`  
 
-5) Then you have to click on "Voir pour le [PRATICIEN]" button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a tooltip by hovering the item
+5) Then you have to click on "Voir pour le [PRATICIEN]" button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a tooltip by hovering the item  
 `<image 7: GUI home avec les validations des check cochées precedemment>`  
 `<image 8: idem que im7 mais avec une info-bulle explicative>`  
   
 6) Then you click on "Quiz suivant !" button to load the next question  
 `<image 9: idem que im8 mais avec la souris qui clique sur le bouton>`  
 
-7) You start again with a new question. 
+7) You start again with a new question. You have to answer to 5 questions to get a final score. Simple !  
+  
+#### Further informations:
+
 
 ### Use CheckQuizzes feature:
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
