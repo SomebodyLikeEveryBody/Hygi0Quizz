@@ -28,7 +28,14 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 
 ## How to use
 ### Use Hygi0Quizz feature:
-This is the **Game File**. When you launch it, it presents as following: 
+This is the **Game File**. When you launch it, it presents as following:  
+`<image 1: GUI>`  
+
+#### Here are the informations to know:  
+- There is a concrete situation described at the top of the page
+- There are 2 fields: a **Patient field**, and a **Practitionner field**
+- You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field
+- 
 
 
 ### Use CheckQuizzes feature:
