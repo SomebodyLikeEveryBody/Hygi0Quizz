@@ -52,10 +52,14 @@ This is the **Game File**. When you launch it, it presents as following:
 6) Then you click on "Quiz suivant !" button to load the next question  
 `<image 9: idem que im8 mais avec la souris qui clique sur le bouton>`  
 
-7) You start again with a new question. You have to answer to 5 questions to get a final score. Simple !  
+7) You start again with a new question. You have to answer to 5 questions in total to get a final score. Simple !  
   
 #### Further informations:
-
+By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file.  
+**If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score.  
+  
+It is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to do training with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions.
+  
 
 ### Use CheckQuizzes feature:
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
