@@ -23,7 +23,7 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 ## Installation
 - Step 1: Download the folder by clicking on "Clone or download" button, and unzip it into the folder you want to put in 
 - Step 2: Create a shortcut to yourFolder/HygioQuizz/src/Hygi0Quizz.htm on your desktop, to make the launch simpler
-- Step 3: Modify the 
+- Step 3: Modify the quizzes.js file (*at yourFolder/HygioQuizz/src/quizzes.js*) to specify your own questions and answers
 - Step 4: Click on the shortcut to Hygi0Quizz.htm to launch the application and play as much as you want
 
 ## How to use
