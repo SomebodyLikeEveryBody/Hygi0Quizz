@@ -31,7 +31,7 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 ## IV) How to use
 ### IV.1) Use Hygi0Quizz feature:
 This is the **Game File**. When you launch it, it presents as following:  
-`<image 1: GUI home>`  
+![Screenshot](./imgReadMe/structure.png)  
 
 #### IV.1.1) Here are the informations to know:  
 1)  There is a concrete situation / question described at the top of the page.  
