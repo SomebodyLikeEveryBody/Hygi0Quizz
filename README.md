@@ -28,9 +28,18 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 
 ## How to use
 ### Hygi0Quizz
-Using Hygi0Quizz
+
+
 ### CheckQuizzes
-Using CheckQuizzes
+This is a file to see all the questions and answers stored in quizzes.js, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
+You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it in your web browser and show the first question of the quizzes.js file (question 0).  
+To see the next question and answers, you click on the link "Goto question X".  
+Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, juste add `?n=K` at the end of the url in the browser.  
+  
+- Example 1: des trucs
+
+- Example 2: des trucs
+
 
 
 
