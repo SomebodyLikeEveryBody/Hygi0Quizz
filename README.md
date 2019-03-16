@@ -34,7 +34,7 @@ This is the **Game File**. When you launch it, it presents as following:
 `<image 1: GUI home>`  
 
 #### IV.1.1) Here are the informations to know:  
-1)  There is a concrete situation described at the top of the page.  
+1)  There is a concrete situation / question described at the top of the page.  
 `<image 2: idem que img1 mais en indiquant le contexte>`  
   
 2)  There are 2 fields: a **Patient field**, and a **Practitionner field**.  
