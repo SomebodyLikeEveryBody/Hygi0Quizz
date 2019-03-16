@@ -34,12 +34,15 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
   
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it in your web browser and show the first question of the quizzes.js file (question 0).  
-To see the next question and answers, you click on the link "Goto question X".  
-Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, juste add `?n=K` at the end of the url in the browser.  
   
-- Example 1: des trucs
+To see the next question and answers, you click on the link "Goto question X".  
+Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser.  
+  
+- Example 1: You just launched CheckQuizzes and want to see the question number 5, you do as so: 
 
-- Example 2: des trucs
+- Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so: 
+
+- Example 3: You launched CheckQuizzes and went to question number 4, you want to see question number 7, you do as so: 
 
 
 
