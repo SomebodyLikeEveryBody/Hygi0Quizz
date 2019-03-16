@@ -57,9 +57,10 @@ This is the **Game File**. When you launch it, it presents as following:
 #### Further informations:
 By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file.  
   
-**If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score, it is self managed !  
+**If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score, it is 
+ged !  
   
-However, it is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to do training with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions, it is self managed !
+However, it is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to do training with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions, it is self managed !  
 `<image 1: home avec info-bulle disant que c'est une session avec 5 questions>`  
 `<image 2: modification de l'url pour un ?n=15>`  
 `<image 3: home avec url ?n=15 disant que c'est une session avec 15 questions>`  
