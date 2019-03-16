@@ -52,15 +52,15 @@ Technically, the index of the question shown in the page is the value of `$_GET[
 
 - Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so:  
 `<image 1: page ?n=4>`  
-`<image 2: modifying to ?n=2>`
-`<image 3: clicking GO !>`
-`<image 4: showing ?n=2>`
+`<image 2: modifying to ?n=2>`  
+`<image 3: clicking GO !>`  
+`<image 4: showing ?n=2>`  
 
 - Example 3: You launched CheckQuizzes and went to question number 4, you want to see question number 7, you do as so:  
 `<image 1: page ?n=4>`  
-`<image 2: modifying to ?n=7>`
-`<image 3: clicking GO !>`
-`<image 4: showing ?n=7>`
+`<image 2: modifying to ?n=7>`  
+`<image 3: clicking GO !>`  
+`<image 4: showing ?n=7>`  
 
 
 
