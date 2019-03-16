@@ -33,16 +33,14 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 This is the **Game File**. When you launch it, it presents as following:  
   
 ![Screenshot](./imgReadMe/structure.png)  
+![Screenshot](./imgReadMe/selection.png)  
 
 #### IV.1.1) Here are the informations to know:  
 1)  There is a concrete situation / question described at the top of the page.  
-`<image 2: idem que img1 mais en indiquant le contexte>`  
   
 2)  There are 2 fields: a **Patient field**, and a **Practitionner field**.  
-`<image 3: idem que img1 mais en indiquant les champs patient et praticien>`  
   
-3)  You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field. You can hover an item to see the detail of the equipment in an tooltip.  
-`<image 4: GUI home avec des checkbox cochées et une info-bulle sur un item>`  
+3)  You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field. You can hover an item to see the detail of the equipment in an tooltip.    
   
 4) Then you validate your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a tooltip by hovering the item  
 `<image 5: GUI home avec les validations des check cochées precedemment>`  
