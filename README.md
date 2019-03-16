@@ -36,9 +36,9 @@ This is a file to **see all the questions and answers stored in quizzes.js**, us
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
   
 To see the next question and answers, you click on the link "Goto question X".  
-Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser.  
+Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser and press enter.  
   
-- Example 1: You just launched CheckQuizzes and want to see the question number 5, you do as so: 
+- Example 1: You just launched CheckQuizzes and want to see directly the question number 5, you do as so: 
 
 - Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so: 
 
