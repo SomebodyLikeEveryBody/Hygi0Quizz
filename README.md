@@ -1,7 +1,7 @@
 # Hygi0Quizz
 *A Quiz Game in [HTML/Javascript-jQuery] to teach and train people to hygiene recommendations*
 
-![Screenshot](./imgReadMe/home.png)
+![Screenshot](./imgReadMe/screenShot.png)
 
 ## I) Explanation
 The purpose of this application is to easily learn hygiene recommendations of the structure you work at.  
