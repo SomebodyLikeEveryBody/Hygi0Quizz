@@ -1,7 +1,7 @@
 # Hygi0Quizz
 *A Quiz Game in [HTML/Javascript-jQuery] to teach and train people to hygiene recommendations*
 
-## Explanation
+## I) Explanation
 The purpose of this application is to easily learn hygiene recommendations of the structure you work at.  
 I noticed that application of hygiene measures at work by operators is something hard because of 3 things
 1) The learning of the hygiene recommendations of the structure by the operators, that could be hard and unpleasing
@@ -11,7 +11,7 @@ I noticed that application of hygiene measures at work by operators is something
 This applicatio has the purpose to solve the first point by **decreasing the constraint to overcome to learn the recommendations**, this by using concretes situation and trial and error learning strategy, on a funny web application.
 This also have the purpose to affect positively the second point by **encouraging dialog between operators and hygiene team** about specific hygiene cases, problems encountered in the unit, scales of values, etc.
 
-## Technical informations
+## II) Technical informations
 This is a web application exclusively in front-end, using html and jQuery. This choice has been made to have something really simple to deploy. You don't need any internet connection or any server, the only thing you need is a web browser. You put the directory on the computer, launch it into the web browser and play, that's it.  
   
 There's 2 parts in the application: 
@@ -20,18 +20,18 @@ There's 2 parts in the application:
 
 For information, the **Hygi0Quizz.htm** file is the file to launch the training appliction, while **checkQuizzes.htm** is a file to see all the quizzes and the answers. Its use is detailed in the **How to use** section. 
 
-## Installation
+## III) Installation
 - Step 1: Download the folder by clicking on "Clone or download" button, and unzip it into the folder you want to put in 
 - Step 2: Create a shortcut to yourFolder/HygioQuizz/src/Hygi0Quizz.htm on your desktop, to make the launch simpler
 - Step 3: Modify the quizzes.js file (*at yourFolder/HygioQuizz/src/quizzes.js*) with your favorite text editor to specify your own questions and answers
 - Step 4: Click on the shortcut to Hygi0Quizz.htm to launch the application and play as much as you want
 
-## How to use
-### Use Hygi0Quizz feature:
+## IV) How to use
+### IV.1) Use Hygi0Quizz feature:
 This is the **Game File**. When you launch it, it presents as following:  
 `<image 1: GUI home>`  
 
-#### Here are the informations to know:  
+#### IV.1.1) Here are the informations to know:  
 1)  There is a concrete situation described at the top of the page.  
 `<image 2: idem que img1 mais en indiquant le contexte>`  
   
@@ -54,7 +54,7 @@ This is the **Game File**. When you launch it, it presents as following:
 
 7) You start again with a new question. You have to answer to 5 questions in total to get a final score. Simple !  
   
-#### Further informations:
+#### IV.1.2) Further informations:
 By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file.  
   
 **If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score, it is 
@@ -65,7 +65,7 @@ However, it is **5 questions by default, but you can modify this** by adding `?n
 `<image 2: modification de l'url pour un ?n=15>`  
 `<image 3: home avec url ?n=15 disant que c'est une session avec 15 questions>`  
   
-### Use CheckQuizzes feature:
+### IV.2) Use CheckQuizzes feature:
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
   
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
@@ -95,9 +95,3 @@ Technically, the index of the question shown in the page is the value of `$_GET[
 `<image 2: modifying to ?n=7>`  
 `<image 3: clicking GO !>`  
 `<image 4: showing ?n=7>`  
-
-
-
-
-
-
