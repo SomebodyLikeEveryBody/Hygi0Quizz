@@ -35,7 +35,7 @@ This is the **Game File**. When you launch it, it presents as following:
 ![Screenshot](./imgReadMe/struct.png)  
 ![Screenshot](./imgReadMe/selection.png)  
 ![Screenshot](./imgReadMe/valPat.png)  
-![Screenshot](./imgReadMe/valPractition.png)  
+![Screenshot](./imgReadMe/valPrac.png)  
 
 #### IV.1.1) Here are the informations to know:  
 1)  There is a concrete situation / question described at the top of the page.  
