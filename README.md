@@ -29,14 +29,30 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 ## How to use
 ### Use Hygi0Quizz feature:
 This is the **Game File**. When you launch it, it presents as following:  
-`<image 1: GUI>`  
+`<image 1: GUI home>`  
 
 #### Here are the informations to know:  
-- There is a concrete situation described at the top of the page
-- There are 2 fields: a **Patient field**, and a **Practitionner field**
-- You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field
-- 
+1)  There is a concrete situation described at the top of the page.  
+`<image 2: idem que img1 mais en indiquant le contexte>`  
+  
+2)  There are 2 fields: a **Patient field**, and a **Practitionner field**.  
+`<image 3: idem que img1 mais en indiquant les champs patient et praticien>`  
+  
+3)  You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field. You can hover an item to see the detail of the equipment in an tooltip.  
+`<image 4: GUI home avec des checkbox cochées et une info-bulle sur un item>`  
+  
+4) Then you validate your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a tooltip by hovering the item
+`<image 5: GUI home avec les validations des check cochées precedemment>`  
+`<image 6: idem que im5 mais avec une info-bulle explicative>`  
 
+5) Then you have to click on "Voir pour le [PRATICIEN]" button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a tooltip by hovering the item
+`<image 7: GUI home avec les validations des check cochées precedemment>`  
+`<image 8: idem que im7 mais avec une info-bulle explicative>`  
+  
+6) Then you click on "Quiz suivant !" button to load the next question  
+`<image 9: idem que im8 mais avec la souris qui clique sur le bouton>`  
+
+7) You start again with a new question. 
 
 ### Use CheckQuizzes feature:
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
