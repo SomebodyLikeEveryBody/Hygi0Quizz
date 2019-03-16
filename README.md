@@ -44,19 +44,19 @@ To see the next question and answers, you click on the link "Goto question X".
 
 Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser and press enter.  
   
-- Example 1: You just launched CheckQuizzes and want to see directly the question number 5, you do as so: 
+- Example 1: You just launched CheckQuizzes and want to see directly the question number 5, you do as so:  
 `<image 1: HomePage>`  
 `<image 2: Adding ?n=5>`  
 `<image 3: clicking GO !>`
 `<image 4: showing ?n=5>`
 
-- Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so: 
+- Example 2: You launched CheckQuizzes and went to question number 4, you want to see question number 2, you do as so:  
 `<image 1: page ?n=4>`  
 `<image 2: modifying to ?n=2>`
 `<image 3: clicking GO !>`
 `<image 4: showing ?n=2>`
 
-- Example 3: You launched CheckQuizzes and went to question number 4, you want to see question number 7, you do as so: 
+- Example 3: You launched CheckQuizzes and went to question number 4, you want to see question number 7, you do as so:  
 `<image 1: page ?n=4>`  
 `<image 2: modifying to ?n=7>`
 `<image 3: clicking GO !>`
