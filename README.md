@@ -42,17 +42,17 @@ This is the **Game File**. When you launch it, it presents as following:
   
 2)  There are 2 fields: a **Patient field**, and a **Practitionner field**.  
   
-3)  You have to click on the equipments you recommand for the patient in the Patient Field, and on the equipments you recommand for the practitionner in the Practitionner Field. You can hover an item to see the detail of the equipment in an tooltip.    
+3)  You have to **click on the equipments you recommand** for the patient in **the Patient Field**, and on the equipments you recommand for the practitionner in the **Practitionner Field**. You can hover an item to see the detail of the equipment in an **tooltip**.    
   
-4) Then you validate your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a tooltip by hovering the item  
+4) Then you **validate** your answer by clicking on *"Voir pour le [PATIENT]"* button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a **tooltip** by hovering the item  
 `<image 5: GUI home avec les validations des check cochées precedemment>`  
 `<image 6: idem que im5 mais avec une info-bulle explicative>`  
 
-5) Then you have to click on "Voir pour le [PRATICIEN]" button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a tooltip by hovering the item  
+5) Then you have to click on *"Voir pour le [PRATICIEN]"* button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a **tooltip** by hovering the item  
 `<image 7: GUI home avec les validations des check cochées precedemment>`  
 `<image 8: idem que im7 mais avec une info-bulle explicative>`  
   
-6) Then you click on "Quiz suivant !" button to load the next question  
+6) Then you click on *"Quiz suivant !"* button to load the next question  
 `<image 9: idem que im8 mais avec la souris qui clique sur le bouton>`  
 
 7) You start again with a new question. You have to answer to 5 questions in total to get a final score. Simple !  
