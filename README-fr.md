@@ -1,5 +1,5 @@
 # Hygi0Quizz
-*Un jeu de Quiz développé en [HTML/Javascript-jQuery] visant à apprendre les recommandations d'hygiene et s'entraîner en tant que professionnel*
+*Une application de jeu de Quiz développée en [HTML/Javascript-jQuery], visant à apprendre les recommandations d'hygiene et s'entraîner en tant que professionnel de santé*
 
 ![Screenshot](./imgReadMe/Example.png)
 
