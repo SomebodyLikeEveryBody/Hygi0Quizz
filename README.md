@@ -74,9 +74,8 @@ You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, tha
 ![Screenshot](./imgReadMe/checkQuizzesHome.png)  
   
 To see the next question and answers, you click on the link "Goto question X".  
-`<image 1: HomePage with Mouse on [GOTO question 1]>`  
-`<image 2: ?n=1 with Mouse on [GOTO question 2]>`  
-`<image 2: ?n=3 with Mouse on [GOTO question 3]>`  
+![Screenshot](./imgReadMe/checkQuizzesHome1.png)  
+![Screenshot](./imgReadMe/checkQuizzesHome2.png)    
 
 Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser and press enter.  
   
