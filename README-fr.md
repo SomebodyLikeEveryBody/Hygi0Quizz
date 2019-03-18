@@ -1,10 +1,10 @@
 # Hygi0Quizz
-*Une application de jeu de Quiz développée en [HTML/Javascript-jQuery], visant à apprendre les recommandations d'hygiene et s'entraîner en tant que professionnel de santé*
+*Une application de jeu de Quiz développée en [HTML/Javascript-jQuery], visant à apprendre les recommandations d'hygiène et s'entraîner en tant que professionnel de santé*
 
 ![Screenshot](./imgReadMe/Example.png)
 
 ## I) Explications
-Le but de cette application est d'apprendre facilement les recommandations d'hygiene d'une structure de santé.  
+Le but de cette application est d'apprendre facilement les recommandations d'hygiène d'une structure de santé.  
 J'ai pu remarquer que l'application des mesure d'hygiène par les opérateurs au sein de structures de santé est quelque chose de compliqué, en particulier du fait de 3 facteurs:  
 1) L'apprentissage des recommandations d'hygiène par les opérateurs, tâche qui peut être difficile et laborieuse
 2) La discordance entre les recommandations  théoriques et la réalité du terrain, quand l'échelle de valeur des recommandations ne rejoint pas celles des opérateurs
@@ -17,7 +17,7 @@ Cette application a également pour but de d'affecter positivement le second poi
 Hygi0Quizz est une application web exclusivement front-end, utilisant HTML et jQuery. Ce choix a été fait afin d'obtenir un outil très simple à déployer. Point besoin de connexion internet ou de serveur sur lequel placer l'application, la seule chose nécessaire est un navigateur web (chrome, firefox, internet explorer, ...). Vous placez le répertoire sur l'ordinateur, lancez le fichier "Hygi0Quizz.htm" dans un navigateur web et vous jouez, c'est tout.  
   
 Il y a 2 parties dans l'application: 
-- Une **partie quiz**, incarnée par le fichier **"quizzes.js"**, qui contient tous les quizs et les explications de chaque réponse, sous la forme d'un objet JS, fichier qui peut être modifé manuellement ou avec un outil simplificateur, afin de mettre à jour les quizs et les réponses en fonction de l'évolution des recommandations *(un outil visant à générer le fichier quizzes.js depuis une simple interface graphique arrive bientôt !)*
+- Une **partie quiz**, incarnée par le fichier **"quizzes.js"**, qui contient tous les quizs et les explications de chaque réponse, sous la forme d'un objet JS, fichier qui peut être modifié manuellement ou avec un outil simplificateur, afin de mettre à jour les quizs et les réponses en fonction de l'évolution des recommandations *(un outil visant à générer le fichier quizzes.js depuis une simple interface graphique arrive bientôt !)*
 - Une **partie technique**, constituée par les fichiers nécessaire au fonctionnement propre de l'application (Hygi0Quizz.htm, checkQuizzes.htm, ./resources/\*), qui n'ont pas besoin d'être modifiés de prime abord.
 
 Pour information, le fichier **Hygi0Quizz.htm** est le fichier permettant de lancer l'application de quizs d'entraînement, tandis que le fichier **checkQuizzes.htm** est un fichier permettant de voir tous les quizs et les réponses à ces derniers. Son utilisation est détaillée dans la partie **Comment l'utiliser** . 
@@ -44,9 +44,9 @@ C'est le **Jeu de Quizz**. Quand vous le lancez, il se présente comme suit:
   
 3)  Vous devez **cliquer sur les équipements que vous recommandez** pour le patient dans **le champs Patient**, et sur les équipements que vous recommandez pour le praticien dans le **champs Praticien**. Vous pouvez survoler avec la souris un item pour voir le détail de l'équipement dans une  **info-bulle**.    
   
-4) Quand vous **validez** votre réponse en cliquant sur le bouton **_"Voir pour le [PATIENT]"_**, cela va montrer les réponses attendues pour le champs patient. Vous pouvez obtenir des explicatiosn détaillées sur chaque réponse dans une **info-bulle** en survolant l'item avec la souris.
-- Si l'icône équipement que vous avez selectionnée est correcte, elle sera entourée par un halo vert
-- Si l'icône équipement que vous avez selectionnée n'est pas correcte, le signe "check" dans la partie inférieure droite de l'icône sera barrée
+4) Quand vous **validez** votre réponse en cliquant sur le bouton **_"Voir pour le [PATIENT]"_**, cela va montrer les réponses attendues pour le champs patient. Vous pouvez obtenir des explications détaillées sur chaque réponse dans une **info-bulle** en survolant l'item avec la souris.
+- Si l'icône équipement que vous avez sélectionnée est correcte, elle sera entourée par un halo vert
+- Si l'icône équipement que vous avez sélectionnée n'est pas correcte, le signe "check" dans la partie inférieure droite de l'icône sera barrée
 - Si vous n'avez pas sélectionné un équipement que vous auriez dû, il sera entouré d'un halo vert et un signe "Attention" rouge sera notifié dans la partie supérieure gauche de l'icône.
   
 5) Ensuite vous devez cliquer sur le bouton **_"Voir pour le [PRATICIEN]"_**, ce qui va montrer les réponses attendues pour le champs praticien. Vous pouvez avoir des explications détaillées dans une **info-bulle** pour chaque réponse en survolant l'item avec la souris.  
@@ -57,12 +57,12 @@ C'est le **Jeu de Quizz**. Quand vous le lancez, il se présente comme suit:
   
 ![Screenshot](./imgReadMe/final.png)  
   
-#### IV.1.2) Further informations:
+#### IV.1.2) Informations supplémentaires:
 Par défaut, **vous devez répondre à 5 questions pour avoir un score final**, 5 questions tirées au hasard parmi toutes les questions stockées dans le fichier quizzes.js.  
   
 **Si le fichier quizzes.js contient moins de 5 questions**, vous devrez répondre à toutes les questions contenues dans le fichier pour avoir un score final, c'est auto-géré !  
   
-Par ailleurs, c'est **5 questions par défaut, mais vous pouvez modifier ce nombre** en ajoutant `?n=X` à la fin de l'url puis en appuyant sur la touche "Entrée" pour faire des sessions d'entrainemen de 1, 2, 3, ..., ou toutes les questions du fichier quizzes.js. Si vous avez entré un nombre supérieur au nombre de questions disponibles, cela va définir le nombre au nombre de question contenues dans le fichier quizzes.js, c'est auto-géré !  
+Par ailleurs, c'est **5 questions par défaut, mais vous pouvez modifier ce nombre** en ajoutant `?n=X` à la fin de l'url puis en appuyant sur la touche "Entrée" pour faire des sessions d'entrainement de 1, 2, 3, ..., ou toutes les questions du fichier quizzes.js. Si vous avez entré un nombre supérieur au nombre de questions disponibles, cela va définir le nombre au nombre de question contenues dans le fichier quizzes.js, c'est auto-géré !  
 ![Screenshot](./imgReadMe/furth1.png)  
 ![Screenshot](./imgReadMe/furth2.png)  
   
