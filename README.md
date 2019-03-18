@@ -59,7 +59,7 @@ By default, **you have to answer to 5 questions to get a final score**, 5 questi
   
 **If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score, it is self managed !  
   
-However, it is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to do training with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions, it is self managed !  
+However, it is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to train with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions, it is self managed !  
 ![Screenshot](./imgReadMe/furth1.png)  
 ![Screenshot](./imgReadMe/furth2.png)  
   
