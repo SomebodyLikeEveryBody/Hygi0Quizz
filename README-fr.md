@@ -7,17 +7,17 @@
 Le but de cette application est d'apprendre facilement les recommandations d'hygiène d'une structure de santé.  
 J'ai pu remarquer que l'application des mesure d'hygiène par les opérateurs au sein de structures de santé est quelque chose de compliqué, en particulier du fait de 3 facteurs:  
 1) L'apprentissage des recommandations d'hygiène par les opérateurs, tâche qui peut être difficile et laborieuse
-2) La discordance entre les recommandations  théoriques et la réalité du terrain, quand l'échelle de valeur des recommandations ne rejoint pas celles des opérateurs
+2) La discordance entre les recommandations  théoriques et la réalité du terrain, quand l'échelle de valeur des recommandations ne rejoint pas forcément celles des opérateurs
 3) Les difficultés logistiques à appliquer les recommandations, du fait d'un manque de temps ou de moyens
 
-Cette application a pour but de résoudre le premier point en **diminuant l'énergie nécessaire à apprendre les recommandations**, en utilisant des cas concrets et une approche d'apprentissage de type "essai-erreur", le tout dans une application web qui se veut amusante.
-Cette application a également pour but de d'affecter positivement le second point cité en **encourageant le dialogue entre les opérateurs et l'équipe d'hygiène**, à propos des cas spécifiques décris, d'impossibilités logistiques d'appliquer les réponses proposées, de divergence d'échelles de valeurs, etc.
+Cette application a pour but de résoudre le premier point en **diminuant l'énergie nécessaire à apprendre les recommandations**, en utilisant des cas concrets et une approche d'apprentissage de type "essai-erreur", le tout dans une application web qui se veut ludique.
+Cette application a également pour but de d'affecter positivement le second point cité en **encourageant le dialogue entre les opérateurs et l'équipe d'hygiène**, favoriser les échanges sur les cas spécifiques décris, les impossibilités logistiques d'appliquer les réponses proposées, les divergence d'échelles de valeurs, etc.
 
 ## II) Informations techniques 
-Hygi0Quizz est une application web exclusivement front-end, utilisant HTML et jQuery. Ce choix a été fait afin d'obtenir un outil très simple à déployer. Point besoin de connexion internet ou de serveur sur lequel placer l'application, la seule chose nécessaire est un navigateur web (chrome, firefox, internet explorer, ...). Vous placez le répertoire sur l'ordinateur, lancez le fichier "Hygi0Quizz.htm" dans un navigateur web et vous jouez, c'est tout.  
+Hygi0Quizz est une application web exclusivement front-end, utilisant HTML et jQuery. Ce choix a été fait afin d'obtenir un outil très simple à déployer. Point besoin de connexion internet ou de serveur sur lequel placer l'application, la seule chose nécessaire est un navigateur web (chrome, firefox, internet explorer, ...). Vous placez le répertoire sur l'ordinateur, lancez le fichier "Hygi0Quizz.htm" dans un navigateur web et vous jouez, c'est tout !  
   
 Il y a 2 parties dans l'application: 
-- Une **partie quiz**, incarnée par le fichier **"quizzes.js"**, qui contient tous les quizs et les explications de chaque réponse, sous la forme d'un objet JS, fichier qui peut être modifié manuellement ou avec un outil simplificateur, afin de mettre à jour les quizs et les réponses en fonction de l'évolution des recommandations *(un outil visant à générer le fichier quizzes.js depuis une simple interface graphique arrive bientôt !)*
+- Une **partie quiz**, incarnée par le fichier **"quizzes.js"**, qui contient tous les quizs et les explications de chaque réponse, sous la forme d'un objet JS, fichier qui peut être modifié manuellement ou avec un outil simplificateur, afin de mettre à jour les quizs et les réponses en fonction de l'évolution des recommandations *(un outil visant à générer le fichier quizzes.js depuis une simple interface graphique devrait arriver bientôt)*
 - Une **partie technique**, constituée par les fichiers nécessaire au fonctionnement propre de l'application (Hygi0Quizz.htm, checkQuizzes.htm, ./resources/\*), qui n'ont pas besoin d'être modifiés de prime abord.
 
 Pour information, le fichier **Hygi0Quizz.htm** est le fichier permettant de lancer l'application de quizs d'entraînement, tandis que le fichier **checkQuizzes.htm** est un fichier permettant de voir tous les quizs et les réponses à ces derniers. Son utilisation est détaillée dans la partie **Comment l'utiliser** . 
@@ -26,7 +26,7 @@ Pour information, le fichier **Hygi0Quizz.htm** est le fichier permettant de lan
 - Étape 1: Téléchargez le fichier en cliquant sur le bouton "Clone or download", et dé-compressez le dans le dossier que vous voulez (disons yourFolder par exemple)
 - Étape 2: Créez sur votre bureau un raccourci vers yourFolder/HygioQuizz/src/Hygi0Quizz.htm afin de simplifier le lancement de l'application
 - Étape 3: Modifiez le fichier quizzes.js (*situé dans yourFolder/HygioQuizz/src/quizzes.js*) avec votre éditeur de texte favori, afin de définir vos propres questions et réponses
-- Étape 4: Cliquez sur le raccourci que vous venez de créer afin de lancer l'application et jouez autant que vous voulez
+- Étape 4: Cliquez sur le raccourci que vous venez de créer afin de lancer l'application et jouez ou faites jouer autant que vous voulez
 
 ## IV) Comment l'utiliser
 ### IV.1) Fonctionnalité Hygi0Quizz :
@@ -81,4 +81,6 @@ Pour l'utiliser il suffit de cliquer sur **yourFolder/HygioQuizz/src/CheckQuizze
 ![Screenshot](./imgReadMe/checkQuizzesHome2.png)    
 
 #### Importante dernière chose
-Techniquement, l'index de la question affichée dans CheckQuizzes est la valeur de `$_GET['n']`, **donc pour voir directement la question numéro K**, ajoutez simplement `?n=K` à la fin de l'url dans le navigateur, et appuyez sur "Entrée".
+Techniquement, l'index de la question affichée dans CheckQuizzes est la valeur de `$_GET['n']`, **donc pour voir directement la question numéro K**, ajoutez simplement `?n=K` à la fin de l'url dans le navigateur, et appuyez sur "Entrée".  
+  
+Voilà c'est tout, bonne utilisation ! 
