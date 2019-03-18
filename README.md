@@ -71,7 +71,7 @@ This is a file to **see all the questions and answers stored in quizzes.js**, us
   
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
   
-![Screenshot](./imgReadMe/checkQuiz.png)  
+![Screenshot](./imgReadMe/checkQuizsHome.png)  
   
 To see the next question and answers, you click on the link "Goto question X".  
 `<image 1: HomePage with Mouse on [GOTO question 1]>`  
