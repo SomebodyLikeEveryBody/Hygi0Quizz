@@ -58,27 +58,27 @@ C'est le **Jeu de Quizz**. Quand vous le lancez, il se présente comme suit:
 ![Screenshot](./imgReadMe/final.png)  
   
 #### IV.1.2) Further informations:
-By default, **you have to answer to 5 questions to get a final score**, 5 questions that are taken randomly in all the questions written in the quizzes.js file.  
+Par défaut, **vous devez répondre à 5 questions pour avoir un score final**, 5 questions tirées au hasard parmi toutes les questions stockées dans le fichier quizzes.js.  
   
-**If your quizzes.js file have less than 5 questions** you will have to answer to all questions that are in the file to get a score, it is self managed !  
+**Si le fichier quizzes.js contient moins de 5 questions**, vous devrez répondre à toutes les questions contenues dans le fichier pour avoir un score final, c'est auto-géré !  
   
-However, it is **5 questions by default, but you can modify this** by adding `?n=X` at the end of the url and pressing entry to train with 1, 2, 3, ..., all questions in the quiz. If you enter a number greater than the number of questions available, it will set a number equal to the number of the questions, it is self managed !  
+Par ailleurs, c'est **5 questions par défaut, mais vous pouvez modifier ce nombre** en ajoutant `?n=X` à la fin de l'url puis en appuyant sur la touche "Entrée" pour faire des sessions d'entrainemen de 1, 2, 3, ..., ou toutes les questions du fichier quizzes.js. Si vous avez entré un nombre supérieur au nombre de questions disponibles, cela va définir le nombre au nombre de question contenues dans le fichier quizzes.js, c'est auto-géré !  
 ![Screenshot](./imgReadMe/furth1.png)  
 ![Screenshot](./imgReadMe/furth2.png)  
   
-### IV.2) Use CheckQuizzes feature:
-This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
+### IV.2) Fonctionnalité CheckQuizzes:
+C'est un fichier permettant de **voir toutes les questions et les réponses stockées dans quizzes.js**, très utile si vous voulez voir les questions et les réponses du fichier quizzes.js avec une mise en forme beaucoup plus lisible qu'en lisant directement le contenu du fichier.  
   
-You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
+Pour l'utiliser il suffit de cliquer sur **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, ce qui lancera l'application dans votre navigateur web, et affichera la première question du fichier quizzes.js (question 0).  
   
 ![Screenshot](./imgReadMe/checkQuizzesHome.png)  
   
   
-**To see the next question and answers**, you click on the link "Goto question X".  
+**Pour voir la question suivante et ses réponses**, cliquez sur le lien "Goto question X".  
   
 ![Screenshot](./imgReadMe/checkQuizzesHome1.png)  
   
 ![Screenshot](./imgReadMe/checkQuizzesHome2.png)    
 
-#### Important final thing
-Technically, the index of the question shown in the page is the value of `$_GET['n']`, **so to see directly question number K**, just add `?n=K` at the end of the url in the browser and press enter.
+#### Importante dernière chose
+Techniquement, l'index de la question affichée dans CheckQuizzes est la valeur de `$_GET['n']`, **donc pour voir directement la question numéro K**, ajoutez simplement `?n=K` à la fin de l'url dans le navigateur, et appuyez sur "Entrée".
