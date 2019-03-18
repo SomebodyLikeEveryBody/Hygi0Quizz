@@ -33,9 +33,9 @@ For information, the **Hygi0Quizz.htm** file is the file to launch the training 
 This is the **Game File**. When you launch it, it presents as following:  
   
 ![Screenshot](./imgReadMe/struct.png)  
-![Screenshot](./imgReadMe/selection.png)  
-![Screenshot](./imgReadMe/valPat.png)  
-![Screenshot](./imgReadMe/valPrac.png)  
+![Screenshot](./imgReadMe/quizSelection.png)  
+![Screenshot](./imgReadMe/quizValPat.png)  
+![Screenshot](./imgReadMe/quizValPrac.png)  
 
 #### IV.1.1) Here are the informations to know:  
 1)  There is a concrete situation / question described at the top of the page.  
