@@ -44,7 +44,10 @@ This is the **Game File**. When you launch it, it presents as following:
   
 3)  You have to **click on the equipments you recommand** for the patient in **the Patient Field**, and on the equipments you recommand for the practitionner in the **Practitionner Field**. You can hover an item to see the detail of the equipment in an **tooltip**.    
   
-4) Then you **validate** your answer by clicking on **_"Voir pour le [PATIENT]"_** button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a **tooltip** by hovering the item  
+4) Then you **validate** your answer by clicking on **_"Voir pour le [PATIENT]"_** button, that will show the expected answers for the Patient field. You can have a detailed explanation of each answer in a **tooltip** by hovering the item.
+- If the equipment icon you checked is correct, it will be surrounded with a green halo
+- If the equipment icon you checked isn't correct, the "check" sign at the bottom-right of the icon will be crossed
+- If you didn't check an equipment you should have check, it will be surrounded with a green halo and a red "Attention" sign will be notified at the top-left or the icon.
   
 5) Then you have to click on **_"Voir pour le [PRATICIEN]"_** button, that will show the expected answers for the Practitionner field. You can have a detailed explanation of each answer in a **tooltip** by hovering the item  
   
