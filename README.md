@@ -80,4 +80,5 @@ You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, tha
   
 ![Screenshot](./imgReadMe/checkQuizzesHome2.png)    
 
-Technically, the index of the question shown in the page is the value of `$_GET['n']`, so to see directly question number K, just add `?n=K` at the end of the url in the browser and press enter.
+#### Important final thing
+Technically, the index of the question shown in the page is the value of `$_GET['n']`, **so to see directly question number K**, just add `?n=K` at the end of the url in the browser and press enter.
