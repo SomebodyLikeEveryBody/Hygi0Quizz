@@ -70,6 +70,7 @@ However, it is **5 questions by default, but you can modify this** by adding `?n
 This is a file to **see all the questions and answers stored in quizzes.js**, useful if you want to check the questions in a prettier view than directly in the quizzes.js file.  
   
 You launch it by clicking on **yourFolder/HygioQuizz/src/CheckQuizzes.htm**, that will launch it into your web browser and show the first question of the quizzes.js file (question 0).  
+  
 ![Screenshot](./imgReadMe/checkQuiz.png)  
   
 To see the next question and answers, you click on the link "Goto question X".  
