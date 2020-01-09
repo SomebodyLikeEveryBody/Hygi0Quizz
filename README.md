@@ -3,7 +3,7 @@
 
 ![Screenshot](./imgReadMe/Example.png)
 
-**If you want to try it directlym just go there !** --> https://somebodylikeeverybody.github.io/try_Hygi0Quizz/
+**If you want to try it directly, just go there !** --> https://somebodylikeeverybody.github.io/try_Hygi0Quizz/
 
 ## I) Explanation
 The purpose of this application is to easily learn hygiene recommendations of the structure you work at.  
