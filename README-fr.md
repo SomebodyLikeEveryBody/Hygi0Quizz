@@ -3,6 +3,8 @@
 
 ![Screenshot](./imgReadMe/Example.png)
 
+**Si vous voulez l'essayer directement, vous n'avez qu'à cliquer là !** --> https://somebodylikeeverybody.github.io/try_Hygi0Quizz/
+
 ## I) Explications
 Le but de cette application est d'apprendre facilement les recommandations d'hygiène d'une structure de santé.  
 J'ai pu remarquer que l'application des mesure d'hygiène par les opérateurs au sein de structures de santé est quelque chose de compliqué, en particulier du fait de 3 facteurs:  
